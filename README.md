@@ -4,6 +4,11 @@
 
 It is a music platform server built using the NestJS framework and TypeScript. MongoDB as a database. The application frontend can be downloaded from this link https://github.com/kostya1998/frontend-SSR-music-platform. This is a scalable server-side API for interacting with and processing audio tracks, albums, and comments. The server consists of separate modules, each of which interacts with a specific entity, which allows you to further expand the application. You can learn more about the architecture on the official website https://nestjs.com/
 
+### Database
+
+Remote MongoDB database. to connect the database, you need to go to the official website https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/ register, create a free classter.
+
+
 ## Installation
 
 1. Clone the repository from GitHub: `git clone https://github.com/kostya1998/server-music-platform.git`.
@@ -16,7 +21,7 @@ It is a music platform server built using the NestJS framework and TypeScript. M
 
 ```bash
 PORT=`your-PORT`
-MONGODB_URI=mongodb+srv://your-username:your-password@your-cluster-url.your-provider.net/your-database-name?retryWrites=true&w=majority
+MongoURI=mongodb+srv://your-username:your-password@your-cluster-url.your-provider.net/your-database-name?retryWrites=true&w=majority
 ```
 
 ## Running the app
