@@ -23,11 +23,7 @@ lerna-debug.log*
 # Ignored files
 /config/*.json
 /config/*.config.ts
-.env
-nest-cli.json
-.prettierrc
-.eslintrc.js
-app.config.ts
+
 # IDEs and editors
 /.idea
 .project
